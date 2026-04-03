@@ -1,0 +1,1 @@
+pip install black ruff pytest ipykernel

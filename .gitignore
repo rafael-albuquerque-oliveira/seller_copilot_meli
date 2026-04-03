@@ -1,0 +1,19 @@
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+
+# Variáveis de Ambiente e Segredos (NUNCA SUBA A CHAVE DO GEMINI)
+.env
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+
+# Dados Brutos e Processados (O GitHub não é banco de dados)
+data/raw/
+*.parquet
+*.csv
+
+# Banco Vetorial do ChromaDB (Criaremos depois)
+chroma_db/
