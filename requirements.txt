@@ -1,7 +1,17 @@
+# Core Data & UI
 polars==0.20.10
 streamlit==1.32.0
-langchain==0.1.13
-chromadb==0.4.24
-google-generativeai==0.4.1
 pyarrow==15.0.2
 python-dotenv==1.0.1
+
+# LangChain Ecosystem (Versões Alinhadas)
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-core==0.3.0
+langchain-huggingface==0.1.0
+langchain-groq==0.2.0
+langchain-chroma==0.1.4
+
+# Embeddings & Vector Store
+sentence-transformers==3.0.1
+chromadb==0.5.5
